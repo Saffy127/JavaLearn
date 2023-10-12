@@ -1,0 +1,36 @@
+isaacsaffran@Isaacs-MacBook-Air lab2 % javac Student.java
+isaacsaffran@Isaacs-MacBook-Air lab2 % java Student
+Initial list of students:
+Isaac 22
+Caylan 22
+Nolan 21
+
+Sorted by name using Comparable:
+Caylan 22
+Isaac 22
+Nolan 21
+
+Sorted by age and then name using Comparator:
+Nolan 21
+Caylan 22
+Isaac 22
+isaacsaffran@Isaacs-MacBook-Air lab2 % Javac BinarySearchExample.java
+isaacsaffran@Isaacs-MacBook-Air lab2 % java BinarySearchExample
+Starting binary search for target: 3
+Current middle element: 3
+Target found at index: 2
+Starting binary search for target: 6
+Current middle element: 3
+Target is greater than middle element, adjusting search range.
+Current middle element: 4
+Target is greater than middle element, adjusting search range.
+Current middle element: 5
+Target is greater than middle element, adjusting search range.
+Target not found in the list.
+Final Result for 3: 2
+Final Result for 6: -1
+isaacsaffran@Isaacs-MacBook-Air lab2 % javac SortExample.java
+isaacsaffran@Isaacs-MacBook-Air lab2 % java SortExample
+Before sorting: [64, 34, 25, 12, 22, 11, 90]
+After sorting: [11, 12, 22, 25, 34, 64, 90]
+isaacsaffran@Isaacs-MacBook-Air lab2 % 
